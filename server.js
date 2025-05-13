@@ -7,8 +7,6 @@ require("dotenv").config();
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-// Middleware
-const cors = require("cors");
 
 // Allow GitHub Pages frontend
 app.use(cors({
